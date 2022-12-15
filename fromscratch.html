@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Emperor Palpatine</title>
+  <meta charset="utf-8"/>
+  <script src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      color: #333333;
+      background-color: #80a4c4;
+    }
+
+    h1 {
+      font-size: 24px;
+      font-weight: bold;
+      color: #003399;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.5;
+      margin-bottom: 20px;
+    }
+
+    a {
+      color: #99008a;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    a:hover {
+      color: #00cc2c;
+      text-decoration: underline;
+    }
+
+    .container {
+        position: relative;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .box {
+        position: relative;
+      width: 200px;
+      height: 200px;
+      margin: 20px;
+      background-color: #003399;
+      color: #ffffff;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body id="Top">
+  <h1>Emperor Palpatine</h1>
+  <h2>The Dark Lord of the Sith</h2>
+  
+  <p>
+    <img width="560" height="315" src="https://www.moviegasm.com/wp-content/uploads/2019/04/emperor_palantine.jpg" alt="A portrait of Emperor Palpatine">
+  </p>
+  
+  <p>Emperor Palpatine, also known as Darth Sidious, was a powerful Sith Lord and the mastermind behind the rise of the Galactic Empire. Born on the planet Naboo, Palpatine was a cunning politician who manipulated events to his own advantage, eventually rising to become the Emperor of the galaxy. With his immense power and control over the dark side of the Force, Palpatine was a formidable opponent and one of the most feared beings in the galaxy.</p>
+
+  <p>Palpatine's rule was marked by corruption and oppression, as he used his power to crush any opposition to his rule. Here are some notable events during his reign:</p>
+
+  <ol>
+    <li>Palpatine orchestrated the Trade Federation's invasion of Naboo, which led to his rise to power.</li>
+    <li>He dissolved the Galactic Republic and declared himself Emperor of the galaxy.</li>
+    <li>Palpatine was responsible for the downfall of the Jedi Order and the deaths of many Jedi, including:
+      <ul>
+        <li>Mace Windu</li>
+        <li>Qui-Gon Jinn</li>
+        <li>Obi-Wan Kenobi</li>
+      </ul>
+    </li>
+
+    <div class="container">
+        <div class="box">
+            <h3>Jedi 1</h3>
+            <img width="75" height="87.5" src="https://th.bing.com/th/id/R.9c4c85e838b4bba1756db4f1a915fa2e?rik=qxUa%2boXemGEjyA&riu=http%3a%2f%2fstatic2.wikia.nocookie.net%2f__cb20071230055328%2fstarwars%2fimages%2ff%2ffc%2fMace_Windu.jpg&ehk=UakjNEccdMWbqyZsfGnmLCN7RxqV%2fo8E6xTP%2bk1XuF0%3d&risl=&pid=ImgRaw&r=0" alt="A portrait of Mace Windu">
+        </div>
+        <div class="box">
+            <h3>Jedi 2</h3>
+            <img width="75" height="87.5" src="https://th.bing.com/th/id/OIP.oZP8cTT95_4nR6VK5uB7QgHaKH?pid=ImgDet&rs=1" alt="A portrait of Qui-Gon">
+        </div>
+        <div class="box">
+            <h3>Jedi 3</h3>
+            <img width="150" height="100" src="https://source.superherostuff.com/wp-content/uploads/2016/11/obiwankenobi11.jpg" alt="A portrait of Obi Wan">
+        </div>
+      </div>
+  </ol>
+  
+  <div id="myTableauGraph"></div>
+  <script>
+  var viz = new tableau.Viz(
+    document.getElementById("myTableauGraph"),
+    "https://public.tableau.com/views/StarWars-ScreenTimeAnalysis/StarWars",
+    {
+      hideTabs: false,
+      hideToolbar: false
+    }
+  );
+</script>
+
+
+
+  <p>Check out this clip of Emperor Palpatine in action:</p>
+
+    <p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/cm9KL4p2lvE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </p>
+</body>
+<p>
+    <a href="#top">Back to Top</a>
+</p>
+<a href="index.html">My Professional Page</a>
+</html>
